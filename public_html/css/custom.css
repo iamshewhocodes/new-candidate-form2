@@ -1,0 +1,40 @@
+.form-multiselect.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100% !important;
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin-top: 9px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+input#uploadProfilePic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.star-rating {
+    padding-top: 7px;
+    font-size: 16px;
+    color: #5cb85c;
+}
+
+
+
+
+
